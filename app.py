@@ -4,8 +4,8 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello():
-    return "Hello World"
+    return render_template("index.html")
 
-if "__main__" == _name__:
-    app.run(debug=True,
-    port = )
+if "__main__" == __name__:
+    app.run(debug = True,
+    port = 2050)
