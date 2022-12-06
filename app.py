@@ -6,6 +6,6 @@ app = Flask(__name__)
 def hello():
     return render_template("index.html")
 
-if "__main__" == __name__:
-    app.run(debug = True,
-    port = 2050)
+#if "__main__" == __name__:
+#    app.run(debug = True,
+#    port = 2050)
